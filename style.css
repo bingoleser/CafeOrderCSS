@@ -1,0 +1,164 @@
+body{
+background-color: rgb(242, 246, 234);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.topic{
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    margin-top: 5%;
+    background-color: rgb(74, 40, 40);
+    height: 50px;
+    width: 80%;  
+    color:rgb(237, 237, 185);
+    font-size: large;
+}
+
+.logo{
+    display: flex;
+   justify-content: end;
+}
+img{
+
+    padding-right: 5px;
+    width: 15%;
+    
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+main{
+    background-color: antiquewhite;
+    
+    margin: 50px 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+    "one four"
+    "two five"
+    "three five";
+}
+.order {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    box-sizing: border-box;
+    
+}
+
+.order-content1{
+    width: 10%;
+}
+.order-content2{
+    width: 70%;
+}.order-content3{
+    width: 10%;
+}.order-content4{
+    width: 25%;
+    font-size: small;
+}
+
+.items{
+    font-size: large;
+    margin-bottom: 10px;
+
+}
+.order3{
+display: flex;
+flex-wrap: wrap;
+align-content: baseline;
+}
+.four{
+   position: relative;
+}
+.input-one{
+    margin-top: 10px;
+    height: 40%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+.input-label{
+    position: absolute;
+    background-color: antiquewhite;
+    padding-left: 0px;
+    padding-top: 3px;
+    font-size: smaller;
+    margin-left: 4px;
+    
+}
+main >div{
+    border:8px solid rgb(242, 246, 234);
+}
+.input-two {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 15%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.input-three {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 15%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+/* spacing */
+
+.table-chart>div{
+    display: flex;
+justify-content: center;  
+}
+table {
+
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  thead th:nth-child(1) {
+    width: 50%;
+    text-align: left;
+  }
+  
+  thead th:nth-child(2) {
+    width: 50%;
+    text-align: left;
+  }
+
+  
+  .buy-button{
+    margin-top: 10px;
+    background-color: rgb(246, 209, 160);
+    width: 80%;
+    align-items: center;
+    height: 30px;
+    border-radius: 15px;
+    color:rgb(54, 45, 45);
+    font-size: larger;
+    font-weight: bold;
+  }
+  .buy-buttonn{
+    text-align: center;
+  }
